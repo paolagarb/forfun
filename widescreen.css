@@ -160,22 +160,36 @@ footer a {
     margin-left: 80px;
 }
 
+
 #formularioContato {
-    margin: 20px 0 0 20px;
+    width: 500px;
+    height: 600px;
+    text-align: center;
     font-size: 16px;
+    background-color: rgba(201, 193, 193, 0.185);
+    margin: -15px 0 0 30%;
+    padding: 20px;
 }
 
-#formularioContato input, select {
+#formularioContato input, select, textarea {
     font-size: 14px;
-    margin-bottom: 15px;
-    height: 22px;
-    width: 200px;
+    margin-bottom: 20px;
+    width: 250px;
     border-radius: 5px;
     border: 1px solid;
     padding-left: 5px;
 }
 
-input #mensagem {
-    width: 200px;
-    height: 200px;
+#formularioContato p {
+    margin: 15px 0 30px 20px;
+    text-align: left;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.822);
+    color: rgba(255, 255, 255, 0.884);
+    width: 100px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 5px;
 }

@@ -22,33 +22,35 @@
             </nav>
         </header>
         
-        <div id="formularioContato">
-            <p>Preencha o formulário.</p>
+        <form action="" method="POST">
+            <div id="formularioContato">
+                <p>Preencha o formulário para enviar uma mensagem.</p>
 
-            <label for="">Departamento: <label> <br>
-                <select id="selectContato">
-                    <option value=""></option>
-                    <option value="escritorio">Escritório</option>
-                    <option value="show">Contratar Show</option>
-                    <option value="acessoria">Acessoria</option>
-                </select> <br>
+                <label for="">Departamento: <label> <br>
+                    <select id="selectContato" required>
+                        <option value=""></option>
+                        <option value="escritorio">Escritório</option>
+                        <option value="show">Contratar Show</option>
+                        <option value="acessoria">Acessoria</option>
+                    </select> <br>
 
-            <label for="">Nome: </label> <br>
-            <input type="text" name="nome" id="nome" placeholder="Seu nome" required> <br>
+                <label for="">Nome: </label> <br>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome" required> <br>
 
-            <label for="">E-mail: </label> <br>
-            <input type="email" name="email" id="email" placeholder="Seu e-mail" required> <br>
+                <label for="">E-mail: </label> <br>
+                <input type="email" name="email" id="email" placeholder="Seu e-mail" required> <br>
 
-            <label for="">Telefone: </label> <br>
-            <input type="tel" name="tel" id="tel" placeholder="(11)4444-4444" required> <br>
+                <label for="">Telefone: </label> <br>
+                <input type="tel" name="tel" id="tel" placeholder="(11)4444-4444" required> <br>
 
-            <label for="">Mensagem: </label> <br>
-            <input type="text" name="mensagem" id="mensagem" placeholder="Sua mensagem" required> <br>
+                <label for="">Mensagem: </label> <br>
+                
+                <textarea name="Mensagem" id="mensagem" cols="32" rows="8" placeholder="Sua mensagem"></textarea> <br>
+                <button>Enviar</button>
 
-            <button>Enviar</button>
-
-            <!--https://developers.google.com/recaptcha/docs/v3-->
-        </div>
+                <!--https://developers.google.com/recaptcha/docs/v3-->
+            </div>
+        </form>
 
         <footer class="quemSomosFooter">
             <p>&copy 2020</p>

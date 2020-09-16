@@ -159,3 +159,23 @@ footer a {
 #quemSomos #Danilo {
     margin-left: 80px;
 }
+
+#formularioContato {
+    margin: 20px 0 0 20px;
+    font-size: 16px;
+}
+
+#formularioContato input, select {
+    font-size: 14px;
+    margin-bottom: 15px;
+    height: 22px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding-left: 5px;
+}
+
+input #mensagem {
+    width: 200px;
+    height: 200px;
+}

@@ -22,11 +22,34 @@
             </nav>
         </header>
         
+        <div id="formularioContato">
+            <p>Preencha o formulário.</p>
 
+            <label for="">Departamento: <label> <br>
+                <select id="selectContato">
+                    <option value=""></option>
+                    <option value="escritorio">Escritório</option>
+                    <option value="show">Contratar Show</option>
+                    <option value="acessoria">Acessoria</option>
+                </select> <br>
 
+            <label for="">Nome: </label> <br>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome" required> <br>
 
+            <label for="">E-mail: </label> <br>
+            <input type="email" name="email" id="email" placeholder="Seu e-mail" required> <br>
 
-        
+            <label for="">Telefone: </label> <br>
+            <input type="tel" name="tel" id="tel" placeholder="(11)4444-4444" required> <br>
+
+            <label for="">Mensagem: </label> <br>
+            <input type="text" name="mensagem" id="mensagem" placeholder="Sua mensagem" required> <br>
+
+            <button>Enviar</button>
+
+            <!--https://developers.google.com/recaptcha/docs/v3-->
+        </div>
+
         <footer class="quemSomosFooter">
             <p>&copy 2020</p>
             <a href="https://www.instagram.com/forfunoficial"><img src="img/Contato/Instagram.png"></a>
@@ -34,7 +57,7 @@
             <a href="https://pt-br.facebook.com/ForfunOficial/"><img src="img/Contato/Facebook.png"></a>
             <a href="https://www.youtube.com/channel/UCG2dP282Bn5hS-jB7jDcyEA"><img src="img/Contato/Youtube.png"></a>
         </footer>
-        
+
        <script src="script.js"></script> 
-    </body>
+       </body>
 </html>

@@ -13,4 +13,3 @@ function efeitoBanner() {
 }
 
 setInterval(efeitoBanner, 2000)
-

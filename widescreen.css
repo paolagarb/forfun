@@ -337,8 +337,31 @@ button {
 
 #quemSomosA:hover, #quemSomosB:hover, #quemSomosC:hover, #quemSomosD:hover, button:hover {
    -webkit-transform: scale(1.1);
-   transform: scale(1.05)
+   transform: scale(1.05);
+   cursor: pointer;
 }
 
-a:hover { font-weight: bold; }
+a:hover { 
+    font-weight: bold; 
+    cursor: pointer; 
+}
+
 #headerQuemS { border-radius: 0; }
+
+.discografia {
+    text-align: center;
+}
+
+.discografia img {
+    margin: 20px;
+}
+
+.discografia img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.discografia a p {
+    margin: -10px;
+}

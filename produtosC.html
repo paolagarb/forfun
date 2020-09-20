@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+        <!--<link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
         <link rel="stylesheet" media="screen and (min-width: 992px)" href="widescreen.css">
-        <link rel="stylesheet" media="screen and (min-width: 600px) and (max-width: 992px)" href="style.css">
-        <title>Forfun - Eventos</title>
+        <link rel="stylesheet" media="screen and (min-width: 600px) and (max-width: 992px)" href="style.css">-->
+        <link rel="stylesheet" href="widescreen.css">
+        <title>Forfun - Produtos</title>
     </head>
     <body>
         <header>
@@ -22,14 +23,27 @@
             </nav>
         </header>
 
-        <div id="eventosProx">
-           ADD  Próximos eventos
-        </div>
-        <div id="eventosPass">
-           ADD  galeria eventos 
+        <div class="produtos">
+            <div class="itens">
+                <ul>
+                    <li><a href="produtos.html" >Camisetas</a></li> <hr>
+                    <li><a href="produtosC.html" class="produtoSelecionado">Canecas</a></li> <hr>
+                    <li><a href="produtosB.html">Bonés</a></li> <hr>
+                </ul>
+            </div>
+            <div class="todosProdutos">
+                <div id="caneca">   
+                    <p>Caneca Forfun</p>
+                    <img src="img/Caneca/CanecaForfun.png" alt="CanecaForfun">
+                    <div class="produtosLine">
+                        <br><button class="comprar">COMPRAR</button>
+                        <p class="preco">R$12,99</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <footer class="Footer">
+        <footer>
             <p>&copy 2020</p>
             <a href="https://www.instagram.com/forfunoficial"><img src="img/Contato/Instagram.png"></a>
             <a href="https://twitter.com/forfunoficial"><img src="img/Contato/Twitter.png"></a>

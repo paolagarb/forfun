@@ -144,31 +144,40 @@ footer a {
     margin: 50px auto;
 }
 
+#quemSomosGeral {
+    display: inline;
+}
+
+#quemSomos {
+    float: left;
+    width: 30%;
+}
+
+#quemSomos img, p, h3 { margin-left: 50px; }
+
 #historia {
-    margin-left: 50px;
-    width: 90%;
+    float: left;
+    width: 70%;
     line-height: 25px;
     margin-bottom: 40px;
 }
 
-#quemSomos {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 20px 55px 55px; 
+#historia div {
+    background-color: rgba(0, 0, 0, 0.075);
+    padding: 10px;
+    margin-top: 20px;
+    width: 95%;
+    border-radius: 20px;
 }
 
 #quemSomos div {
-    width: 25%;
     line-height: 10px;
+    margin-bottom: 80px;
 }
 
+#historia p, h3 { max-width: 85%; }
 #quemSomos img { border-radius: 10px; }
 #quemSomos p { color: black; }
-
-#Rodrigo, #Nicolas {
-    margin-top: 0px;
-    margin-right: 30px;
-}
 
 #formularioContato {
     width: 500px;
@@ -281,3 +290,96 @@ button {
 }
 
 .bones .preco { margin-left: 10%; }
+
+
+
+#quemSomosDiv {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+    overflow: hidden;
+}
+
+#quemSomosA {
+    float: left;
+    width: 25%;
+    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.521)), url("img/Fotos/A.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*  opacity: 0.5;*/
+}
+
+#quemSomosB {
+    float: left;
+    width: 25%;
+    margin-left: 10px;
+    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.521)), url("img/Fotos/B.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#quemSomosC {
+    float: left;
+    width: 25%;
+    margin-left: 10px; 
+    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("img/Fotos/C.png"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#quemSomosD {
+    float: left;
+    width: 25%;
+    margin-left: 10px;
+    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.521)), url("img/Fotos/D.png"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#quemSomosA p{
+    color: rgba(255, 255, 255, 0.836);
+    margin-left: 27%;
+}
+
+#quemSomosB p {
+    color: rgba(255, 255, 255, 0.849);
+    margin-left: 20%;
+}
+
+#quemSomosC p, #quemSomosD p { color: rgba(255, 255, 255, 0.897); }
+
+#quemSomosD p {
+    margin-left: 32%;
+}
+
+#quemSomosA h3, #quemSomosB h3, #quemSomosC h3, #quemSomosD h3 {
+    color: rgba(255, 255, 255, 0.877);
+    margin-top: 30%;
+    margin-bottom: -5%;
+    margin-left: 25%;
+}
+
+#quemSomosA img, #quemSomosB img, #quemSomosC img, #quemSomosD img {
+    width: 30px;
+    margin-left: 45%;
+}
+
+#quemSomosA hr, #quemSomosB hr, #quemSomosC hr, #quemSomosD hr {
+    width: 50px;
+    border: 1px solid white;
+}
+
+#quemSomosA, #quemSomosB, #quemSomosC, #quemSomosD {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+} 
+
+#quemSomosA:hover, #quemSomosB:hover, #quemSomosC:hover, #quemSomosD:hover {
+   -webkit-transform: scale(1.1);
+   transform: scale(1.05)
+}
+
+

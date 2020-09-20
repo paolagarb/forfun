@@ -98,13 +98,9 @@ article p {
     line-height: 25px;
 }
 
-article h1 {
-    margin-left: 50px;
-}
-
 article a {
     color: black;
-    margin-left: 90%;
+    margin-left: 85%;
     font-size: 20px;
 }
 
@@ -147,41 +143,6 @@ footer a {
     width: 95%;
     margin: 50px auto;
 }
-
-#quemSomosGeral {
-    display: inline;
-}
-
-#quemSomos {
-    float: left;
-    width: 30%;
-}
-
-#quemSomos img, p, h3 { margin-left: 50px; }
-
-#historia {
-    float: left;
-    width: 70%;
-    line-height: 25px;
-    margin-bottom: 40px;
-}
-
-#historia div {
-    background-color: rgba(0, 0, 0, 0.075);
-    padding: 10px;
-    margin-top: 20px;
-    width: 95%;
-    border-radius: 20px;
-}
-
-#quemSomos div {
-    line-height: 10px;
-    margin-bottom: 80px;
-}
-
-#historia p, h3 { max-width: 85%; }
-#quemSomos img { border-radius: 10px; }
-#quemSomos p { color: black; }
 
 #formularioContato {
     width: 500px;
@@ -243,11 +204,11 @@ button {
 
 .itens ul {
     display: table;
-    min-height: 100%;
-    line-height: 60px;
+    line-height: 50px;
 }
 
-.itens ul li{ margin-top: 40%; }
+.itens ul li { margin-top: 40%; }
+.itens hr { margin-bottom: -40px; }
 
 .itens a {
     color: black;
@@ -275,7 +236,7 @@ button {
 
 .produtosLine .tamanhos {
     width: 50px;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 .comprar {
@@ -290,6 +251,7 @@ button {
 }
 
 #caneca .preco { margin-left: 75px; }
+#caneca button { margin-left: -10px; }
 
 .bones {
     display: flex;
@@ -297,8 +259,6 @@ button {
 }
 
 .bones .preco { margin-left: 10%; }
-
-
 
 #quemSomosDiv {
     display: flex;
@@ -344,21 +304,12 @@ button {
     background-size: 100% 100%;
 }
 
-#quemSomosA p{
-    color: rgba(255, 255, 255, 0.836);
-    margin-left: 27%;
-}
 
-#quemSomosB p {
-    color: rgba(255, 255, 255, 0.849);
-    margin-left: 20%;
-}
-
-#quemSomosC p, #quemSomosD p { color: rgba(255, 255, 255, 0.897); }
-
-#quemSomosD p {
-    margin-left: 32%;
-}
+#quemSomosA p, #quemSomosB p, #quemSomosC p, #quemSomosD p { color: rgba(255, 255, 255, 0.897); }
+#quemSomosA p { margin-left: 27%; }
+#quemSomosB p { margin-left: 20%; }
+#quemSomosC p { margin-left: 15%; }
+#quemSomosD p { margin-left: 32%; }
 
 #quemSomosA h3, #quemSomosB h3, #quemSomosC h3, #quemSomosD h3 {
     color: rgba(255, 255, 255, 0.877);
@@ -384,9 +335,10 @@ button {
     transition: transform .5s ease;
 } 
 
-#quemSomosA:hover, #quemSomosB:hover, #quemSomosC:hover, #quemSomosD:hover {
+#quemSomosA:hover, #quemSomosB:hover, #quemSomosC:hover, #quemSomosD:hover, button:hover {
    -webkit-transform: scale(1.1);
    transform: scale(1.05)
 }
 
+a:hover { font-weight: bold; }
 #headerQuemS { border-radius: 0; }

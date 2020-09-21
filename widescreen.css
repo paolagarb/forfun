@@ -391,33 +391,75 @@ a:hover {
 #eventos {
     display: flex;
     width: 100%;
-    margin-top: -20px;
+    margin-top: -25px;
 }
 
 #eventosA, #eventosB {
     float: left;
     width: 50%;
-    height: 60px;
+    height: 100px;
     border-radius: 10px 0;
 }
 
 #eventosA {
-    background-color: rgba(0, 0, 0, 0.247);
+    background-color: rgba(0, 0, 0, 0.336);
     margin-left: 100px;
     margin-right: 10px;
 }
 
 #eventosB {
-    background-color: rgba(0, 0, 0, 0.548);
+    background-color: rgba(0, 0, 0, 0.178);
     margin-right: 100px;
     margin-left: 10px;
 }
 
 #eventos p {
-    padding-top: 20px;
-    padding-left: 40px;
+    font-size: 110%;
+    padding-top: 10px;
+    padding-left: 30px;
 }
 
-#eventos > #eventosB {
-    padding-left: 430px;
+#eventos a { color: black; }
+#eventos > #eventosB { padding-left: 340px; }
+#eventos > #eventosA { padding-right: 320px; }
+
+#eventosB:hover, #eventosA:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.05);
+    cursor: pointer;
 }
+
+#eventosprox { 
+    display: flex;
+    width: 100%;
+}
+
+#shows h2 { margin: 50px 0 30px 160px; }
+
+#shows {
+    float: left;
+    width: 50%;
+}
+
+#shows a {
+    color: black;
+    font-weight: 400;
+}
+
+#shows table {
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+#eventosImg {
+    float: left;
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 50px;
+}
+
+#eventosImg img {
+    border-radius: 10px 0;
+    opacity: 0.8;
+}
+

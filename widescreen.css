@@ -179,18 +179,6 @@ button {
 
 #formularioContato button { margin-top: -15px; }
 
-#eventosProx {
-    float: left;
-    width: 50%;
-    background-color: red;
-}
-
-#eventosPass {
-    float: left;
-    width: 50%;
-    background-color: blue;
-}
-
 .produtoSelecionado { font-weight: bolder; }
 
 .itens {
@@ -346,24 +334,6 @@ a:hover {
 }
 
 #headerQuemS { border-radius: 0; }
-/*
-.discografia {
-    text-align: center;
-}
-
-.discografia img {
-    margin: 20px;
-}
-
-.discografia img:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
-.discografia a p {
-    margin: -10px;
-}*/
 
 .discografia {
     display: flex;
@@ -372,56 +342,19 @@ a:hover {
     overflow: hidden;
 }
 
-#CDA {
-    background: linear-gradient(rgba(255, 255, 255, 0.116), rgba(255, 255, 255, 0.116)), url("img/Cd/CDDas-pistas-de-skate-as-pistas-de-danca.jpg"); 
+#CDA { background: linear-gradient(rgba(255, 255, 255, 0.288), rgba(255, 255, 255, 0.116)), url("img/Cd/CDDas-pistas-de-skate-as-pistas-de-danca2.jpg"); }
+#CDB { background: linear-gradient(rgba(255, 255, 255, 0.233), rgba(255, 255, 255, 0.384)), url("img/Cd/CDTeoriaDinamica2.jpg"); }
+#CDC { background: linear-gradient(rgba(255, 255, 255, 0.308), rgba(255, 255, 255, 0.295)), url("img/Cd/CDPolisenso2.jpg"); }
+#CDE { background: linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.479)), url("img/Cd/CDAlegriaCompartilhada.jpg"); }
+#CDF { background: linear-gradient(rgba(255, 255, 255, 0.205), rgba(255, 255, 255, 0.349)), url("img/Cd/CDAoVivoNoDiscoVoador.jpg"); }
+#CDG { background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("img/Cd/CDNu2.jpg"); }
+
+#CDA, #CDB, #CDC, #CDE, #CDF, #CDG { 
+    margin: 10px 20px 0px 20px; 
     background-repeat: no-repeat;
     background-size: 100%;
     float: left;
-    width: 33%;
-}
-
-#CDB {
-    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("img/Cd/CDTeoriaDinamica.jpg"); 
-    background-repeat: no-repeat;
-    background-size: 100%;
-    float: left;
-    width: 33%;
-}
-
-#CDC {
-    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("img/Cd/CDPolisenso.jpg"); 
-    background-repeat: no-repeat;
-    background-size: 100%;
-    float: left;
-    width: 33%;
-}
-
-#CDE {
-    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("img/Cd/CDAlegriaCompartilhada.png"); 
-    background-repeat: no-repeat;
-    background-size: 100%;
-    float: left;
-    width: 33%;
-}
-
-#CDF {
-    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("img/Cd/CDAoVivoNoDiscoVoador.png"); 
-    background-repeat: no-repeat;
-    background-size: 100%;
-    float: left;
-    width: 33%;
-}
-
-#CDG {
-    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("img/Cd/CDNu.jpg"); 
-    background-repeat: no-repeat;
-    background-size: 100%;
-    float: left;
-    width: 33%;
-}
-
-#CDA, #CDB, #CDC, #CDD, #CDE, #CDF, #CDG {
-    margin: 50px 50px 30px 50px;
+    width: 25%;
 }
 
 .discografia p {
@@ -437,6 +370,20 @@ a:hover {
     opacity: 1.0;
 }
 
-.discografia p:hover {
-    opacity: 1.0;
+.discografia p:hover { opacity: 1.0; }
+#headerDisco { margin-bottom: 30px; }
+#footerDisco { margin-top: 20px; }
+#CDA, #CDE { margin-left: 150px; margin-right: -10px;}
+#CDC, #CDG { margin-left: -10px; }
+
+#CDA:hover { background: linear-gradient(rgba(255, 255, 255, 0.288), rgba(255, 255, 255, 0.116)), url("img/Cd/CDDas-pistas-de-skate-as-pistas-de-danca.jpg"); }
+#CDB:hover { background: linear-gradient(rgba(255, 255, 255, 0.233), rgba(255, 255, 255, 0.384)), url("img/Cd/CDTeoriaDinamica.jpg"); }
+#CDC:hover { background: linear-gradient(rgba(255, 255, 255, 0.308), rgba(255, 255, 255, 0.295)), url("img/Cd/CDPolisenso.jpg"); }
+#CDE:hover { background: linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.479)), url("img/Cd/CDAlegriaCompartilhada.png"); }
+#CDF:hover { background: linear-gradient(rgba(255, 255, 255, 0.205), rgba(255, 255, 255, 0.349)), url("img/Cd/CDAoVivoNoDiscoVoador.png"); }
+#CDG:hover { background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("img/Cd/CDNu.jpg"); }
+
+#CDA:hover, #CDB:hover, #CDC:hover, #CDE:hover, #CDF:hover, #CDG:hover {
+    background-repeat: no-repeat;
+    background-size: 100%; 
 }

@@ -18,21 +18,32 @@ setInterval(efeitoBanner, 2000)
 
 
 var galeria = [
-    "img/Galeria/ShowFundiçaoProgresso.png",
+    "img/Galeria/ShowRioDeJaneiro.png",
     "img/Galeria/ShowPortoAlegre.png",
     "img/Galeria/ShowSaoPaulo.png",
     "img/Galeria/ShowSantos.png"
 ]
+var legenda = [
+    "Rio de Janeiro",
+    "Porto Alegre",
+    "São Paulo",
+    "Santos"
+]
+
 var galeriaAtual = 0
+var legendaAtual = 0
 
 function Avancar() {
     if (galeriaAtual == galeria.length-1) {
         galeriaAtual = 0
+        legendaAtual = 0
         document.getElementById('fotoAtual').src = galeria[galeriaAtual]
-
+        document.getElementById('legenda').innerText = legenda[legendaAtual]
     } else {
         galeriaAtual++
+        legendaAtual++
         document.getElementById('fotoAtual').src = galeria[galeriaAtual]
+        document.getElementById('legenda').innerText = legenda[legendaAtual]
     }
     }
     
@@ -40,11 +51,15 @@ function Avancar() {
 function Voltar() {
     if (galeriaAtual == 0) {
         galeriaAtual = (galeria.length-1)
+        legendaAtual = (legenda.length-1)
         document.getElementById('fotoAtual').src = galeria[galeriaAtual]
+        document.getElementById('legenda').innerText = legenda[legendaAtual]
 
     } else {
         galeriaAtual--
+        legendaAtual--
         document.getElementById('fotoAtual').src = galeria[galeriaAtual]
+        document.getElementById('legenda').innerText = legenda[legendaAtual]
         }
     }
     

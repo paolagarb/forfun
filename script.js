@@ -13,3 +13,38 @@ function efeitoBanner() {
 }
 
 setInterval(efeitoBanner, 2000)
+
+
+
+
+var galeria = [
+    "img/Galeria/ShowFundiçaoProgresso.png",
+    "img/Galeria/ShowPortoAlegre.png",
+    "img/Galeria/ShowSaoPaulo.png",
+    "img/Galeria/ShowSantos.png"
+]
+var galeriaAtual = 0
+
+function Avancar() {
+    if (galeriaAtual == galeria.length-1) {
+        galeriaAtual = 0
+        document.getElementById('fotoAtual').src = galeria[galeriaAtual]
+
+    } else {
+        galeriaAtual++
+        document.getElementById('fotoAtual').src = galeria[galeriaAtual]
+    }
+    }
+    
+
+function Voltar() {
+    if (galeriaAtual == 0) {
+        galeriaAtual = (galeria.length-1)
+        document.getElementById('fotoAtual').src = galeria[galeriaAtual]
+
+    } else {
+        galeriaAtual--
+        document.getElementById('fotoAtual').src = galeria[galeriaAtual]
+        }
+    }
+    

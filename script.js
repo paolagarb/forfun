@@ -21,13 +21,19 @@ var galeria = [
     "img/Galeria/ShowRioDeJaneiro.png",
     "img/Galeria/ShowPortoAlegre.png",
     "img/Galeria/ShowSaoPaulo.png",
-    "img/Galeria/ShowSantos.png"
+    "img/Galeria/ShowSantos.png",
+    "img/Galeria/ShowRJ.png",
+    "img/Galeria/ShowAM.png",
+    "img/Galeria/ShowRN.png"
 ]
 var legenda = [
-    "Rio de Janeiro",
-    "Porto Alegre",
-    "São Paulo",
-    "Santos"
+    "02-01-2020  Rio de Janeiro - RJ",
+    "30-12-2019 Porto Alegre - RS",
+    "25-12-2019 São Paulo - SP",
+    "20-12-2019 Santos - SP",
+    "11-11-2019 Rio de Janeiro - RJ",
+    "07-11-2019 Manaus - AM",
+    "05-11-2019 Natal - RN"
 ]
 
 var galeriaAtual = 0

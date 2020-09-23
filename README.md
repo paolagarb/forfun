@@ -8,4 +8,6 @@ Trabalho para ser entregue a cada 15 dias.
 
 - Segunda entrega: responsividade. (07/10/2020) 
 
-![site](https://github.com/paolagarb/SiteForfun/blob/master/SiteForfun.gif)
+<!-- ![site](https://github.com/paolagarb/SiteForfun/blob/master/SiteForfun.gif) -->
+
+<img src="https://github.com/paolagarb/SiteForfun/blob/master/SiteForfun.gif" width="800" >

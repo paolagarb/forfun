@@ -98,10 +98,19 @@ article p {
     line-height: 25px;
 }
 
-article a {
+ #quemSomosID {
     color: black;
-    margin-left: 85%;
+    margin-left: 86%;
     font-size: 20px;
+}
+
+#verMais, #verMenos {
+    color: black;
+    margin-top: -2px;
+}
+
+#verMaisForfun {
+    display: none;
 }
 
 footer {

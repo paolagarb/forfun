@@ -69,3 +69,12 @@ function Voltar() {
         }
     }
     
+
+
+    function verMais() {
+        document.getElementById('verMaisForfun').style.display = 'block'
+    }
+
+    function verMenos() {
+        document.getElementById('verMaisForfun').style.display = 'none'
+    }

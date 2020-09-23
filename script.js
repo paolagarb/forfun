@@ -68,13 +68,13 @@ function Voltar() {
         document.getElementById('legenda').innerText = legenda[legendaAtual]
         }
     }
-    
-
 
     function verMais() {
         document.getElementById('verMaisForfun').style.display = 'block'
+        document.getElementById('forfunInicial').style.display = 'none'
     }
 
     function verMenos() {
         document.getElementById('verMaisForfun').style.display = 'none'
+        document.getElementById('forfunInicial').style.display = 'block'
     }

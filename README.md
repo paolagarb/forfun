@@ -4,6 +4,8 @@
 
 Trabalho para ser entregue a cada 15 dias.
 
+Tema: Livre
+
 - Primeira entrega: site estático. (23/09/2020) :white_check_mark:
 
 - Segunda entrega: responsividade. (07/10/2020) 

@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.918);
+    height: 40px;
+}
+
+header img { 
+    margin: 10px 0 10px 10px;
+    width: 50%; 
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    font-size: 12px;
+    padding: 10px;
+    margin: -3px 10px 0 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#banner {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#banner img {
+    width: 90%;
+    max-width: 90%;
+    border-radius: 0 10px;
+}
+
+#sections {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+}
+
+
+#sectionLeft {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.877);
+    height: 100%;
+    border-radius: 20px; 
+    text-align: center;
+    font-size: 85%;
+    line-height: 180%;
+}
+
+#sectionLeft table tr td {
+    padding-right: 12px;
+    text-align: left;
+}
+
+#sectionRight {
+    display: none;
+}
+
+article {
+    margin: 0 auto;
+    width: 85%;
+}
+
+article p {
+    font-size: 95%;
+    line-height: 25px;
+}
+
+#quemSomosID {
+    color: black;
+    margin-right: 10%;
+    font-size: 95%;
+}
+
+#verMais, #verMenos {
+    color: black;
+    margin-top: -2px;
+}
+
+#verMaisForfun {
+    display: none;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px 0;
+    margin-top: 30px
+}
+
+footer p {
+    float: left;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+footer a {
+    float: left;
+    margin: 3px 5px 0 0;
+}
+
+footer a img {
+    width: 92%;
+}

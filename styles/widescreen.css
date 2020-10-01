@@ -46,7 +46,7 @@ a {
 }
 
 #sections {
-    background: url("img/Fotos/ForfunBackground\ Duo.jpg");
+    background: url("../img/Fotos/ForfunBackground\ Duo.jpg");
     background-repeat: no-repeat;
     height: 500px;
     padding: 20px;
@@ -72,7 +72,7 @@ table, th, td {
 }
 
 #sectionRight {
-    background: linear-gradient(rgba(255, 255, 255, 0.301), rgba(255, 255, 255, 0.925)), url("img/Camisetas/CamisetaAlegriaCompartilhada.png");
+    background: linear-gradient(rgba(255, 255, 255, 0.164), rgba(255, 255, 255, 0.247)), url("../img/Camisetas/CamisetaAlegriaCompartilhada.png");
     background-repeat: no-repeat;
     float: right;
     width: 30%;
@@ -268,7 +268,7 @@ button {
 #quemSomosA {
     float: left;
     width: 25%;
-    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.521)), url("img/Fotos/A.png");
+    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.521)), url("../img/Fotos/A.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     /*  opacity: 0.5;*/
@@ -278,7 +278,7 @@ button {
     float: left;
     width: 25%;
     margin-left: 10px;
-    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.521)), url("img/Fotos/B.png");
+    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.521)), url("../img/Fotos/B.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -287,7 +287,7 @@ button {
     float: left;
     width: 25%;
     margin-left: 10px; 
-    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("img/Fotos/C.png"); 
+    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("../img/Fotos/C.png"); 
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -296,7 +296,7 @@ button {
     float: left;
     width: 25%;
     margin-left: 10px;
-    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.521)), url("img/Fotos/D.png"); 
+    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.521)), url("../img/Fotos/D.png"); 
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -352,12 +352,12 @@ a:hover {
     overflow: hidden;
 }
 
-#CDA { background: linear-gradient(rgba(255, 255, 255, 0.288), rgba(255, 255, 255, 0.116)), url("img/Cd/CDDas-pistas-de-skate-as-pistas-de-danca2.jpg"); }
-#CDB { background: linear-gradient(rgba(255, 255, 255, 0.233), rgba(255, 255, 255, 0.384)), url("img/Cd/CDTeoriaDinamica2.jpg"); }
-#CDC { background: linear-gradient(rgba(255, 255, 255, 0.308), rgba(255, 255, 255, 0.295)), url("img/Cd/CDPolisenso2.jpg"); }
-#CDE { background: linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.479)), url("img/Cd/CDAlegriaCompartilhada.jpg"); }
-#CDF { background: linear-gradient(rgba(255, 255, 255, 0.205), rgba(255, 255, 255, 0.349)), url("img/Cd/CDAoVivoNoDiscoVoador.jpg"); }
-#CDG { background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("img/Cd/CDNu2.jpg"); }
+#CDA { background: linear-gradient(rgba(255, 255, 255, 0.288), rgba(255, 255, 255, 0.116)), url("../img/Cd/CDDas-pistas-de-skate-as-pistas-de-danca2.jpg"); }
+#CDB { background: linear-gradient(rgba(255, 255, 255, 0.233), rgba(255, 255, 255, 0.384)), url("../img/Cd/CDTeoriaDinamica2.jpg"); }
+#CDC { background: linear-gradient(rgba(255, 255, 255, 0.308), rgba(255, 255, 255, 0.295)), url("../img/Cd/CDPolisenso2.jpg"); }
+#CDE { background: linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.479)), url("../img/Cd/CDAlegriaCompartilhada.jpg"); }
+#CDF { background: linear-gradient(rgba(255, 255, 255, 0.205), rgba(255, 255, 255, 0.349)), url("../img/Cd/CDAoVivoNoDiscoVoador.jpg"); }
+#CDG { background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("../img/Cd/CDNu2.jpg"); }
 
 #CDA, #CDB, #CDC, #CDE, #CDF, #CDG { 
     margin: 10px 20px 0px 20px; 
@@ -386,12 +386,12 @@ a:hover {
 #CDA, #CDE { margin-left: 150px; margin-right: -10px;}
 #CDC, #CDG { margin-left: -10px; }
 
-#CDA:hover { background: linear-gradient(rgba(255, 255, 255, 0.288), rgba(255, 255, 255, 0.116)), url("img/Cd/CDDas-pistas-de-skate-as-pistas-de-danca.jpg"); }
-#CDB:hover { background: linear-gradient(rgba(255, 255, 255, 0.233), rgba(255, 255, 255, 0.384)), url("img/Cd/CDTeoriaDinamica.jpg"); }
-#CDC:hover { background: linear-gradient(rgba(255, 255, 255, 0.308), rgba(255, 255, 255, 0.295)), url("img/Cd/CDPolisenso.jpg"); }
-#CDE:hover { background: linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.479)), url("img/Cd/CDAlegriaCompartilhada.png"); }
-#CDF:hover { background: linear-gradient(rgba(255, 255, 255, 0.205), rgba(255, 255, 255, 0.349)), url("img/Cd/CDAoVivoNoDiscoVoador.png"); }
-#CDG:hover { background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("img/Cd/CDNu.jpg"); }
+#CDA:hover { background: linear-gradient(rgba(255, 255, 255, 0.288), rgba(255, 255, 255, 0.116)), url("../img/Cd/CDDas-pistas-de-skate-as-pistas-de-danca.jpg"); }
+#CDB:hover { background: linear-gradient(rgba(255, 255, 255, 0.233), rgba(255, 255, 255, 0.384)), url("../img/Cd/CDTeoriaDinamica.jpg"); }
+#CDC:hover { background: linear-gradient(rgba(255, 255, 255, 0.308), rgba(255, 255, 255, 0.295)), url("../img/Cd/CDPolisenso.jpg"); }
+#CDE:hover { background: linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.479)), url("../img/Cd/CDAlegriaCompartilhada.png"); }
+#CDF:hover { background: linear-gradient(rgba(255, 255, 255, 0.205), rgba(255, 255, 255, 0.349)), url("../img/Cd/CDAoVivoNoDiscoVoador.png"); }
+#CDG:hover { background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("../img/Cd/CDNu.jpg"); }
 
 #CDA:hover, #CDB:hover, #CDC:hover, #CDE:hover, #CDF:hover, #CDG:hover {
     background-repeat: no-repeat;

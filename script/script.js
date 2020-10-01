@@ -1,9 +1,9 @@
 var fotosBanner = [
-    "img/Fotos/Forfun1.jpg",
-    "img/Fotos/Forfun2.jpg",
-    "img/Fotos/Forfun3.jpg",
-    "img/Fotos/ForfunShow.jpg",
-    "img/Fotos/ForfunShow2.jpg"
+    "../img/Fotos/Forfun1.jpg",
+    "../img/Fotos/Forfun2.jpg",
+    "../img/Fotos/Forfun3.jpg",
+    "../img/Fotos/ForfunShow.jpg",
+    "../img/Fotos/ForfunShow2.jpg"
 ]
 var fotoAtual = 0
 
@@ -18,13 +18,13 @@ setInterval(efeitoBanner, 2000)
 
 
 var galeria = [
-    "img/Galeria/ShowRioDeJaneiro.png",
-    "img/Galeria/ShowPortoAlegre.png",
-    "img/Galeria/ShowSaoPaulo.png",
-    "img/Galeria/ShowSantos.png",
-    "img/Galeria/ShowRJ.png",
-    "img/Galeria/ShowAM.png",
-    "img/Galeria/ShowRN.png"
+    "../img/Galeria/ShowRioDeJaneiro.png",
+    "../img/Galeria/ShowPortoAlegre.png",
+    "../img/Galeria/ShowSaoPaulo.png",
+    "../img/Galeria/ShowSantos.png",
+    "../img/Galeria/ShowRJ.png",
+    "../img/Galeria/ShowAM.png",
+    "../img/Galeria/ShowRN.png"
 ]
 var legenda = [
     "02-01-2020  Rio de Janeiro - RJ",

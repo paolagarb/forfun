@@ -13,33 +13,76 @@ body {
     max-width: 100%;
 }
 
+
+.wid {
+    visibility: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.mob {
+    color: white;
+}
+
+
 header {
+    background-color: rgba(0, 0, 0, 0.918);
+    height: 50px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.918);
-    height: 40px;
 }
 
 header img { 
-    margin: 10px 0 10px 10px;
-    width: 50%; 
+    margin: 12px 0 10px 10px;
+    width: 100px;
+    float: left;
 }
 
-ul {
-    display: flex;
+.mob ul {
     list-style: none;
 }
 
-li {
+.mob ul li {
     font-size: 12px;
-    padding: 10px;
-    margin: -3px 10px 0 0;
+    margin: -10px 0px 0 0;
+    width: 120px;
+    float: left;
 }
 
-a {
+.mob ul li a {
     color: white;
     text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+
+.mob ul li ul {
+    visibility: hidden;
+   /* position: absolute;
+    z-index: 1;*/
+    position: relative;
+    right: 35%;
+}
+
+.mob ul li:hover ul {
+    visibility: visible;   
+}
+
+.mob ul ul li {
+    line-height: 20px;
+}
+
+.mob ul li ul hr {
+    border: 2px solid rgb(255, 255, 255);
+    height: 5px;
+}
+
+.mob ul ul a:hover {
+    opacity: 0.8;
 }
 
 #banner {

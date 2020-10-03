@@ -39,6 +39,10 @@ a {
     text-decoration: none;
 }
 
+.mob {
+    visibility: hidden;
+}
+
 #banner {
     text-align: center;
     background-color: white;
@@ -484,4 +488,8 @@ figure{
 
 .seta {
     margin: 220px 180px 0 180px;
+}
+
+footer a:hover {
+    opacity: 0.85;
 }

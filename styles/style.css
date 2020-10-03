@@ -39,6 +39,10 @@ a {
     text-decoration: none;
 }
 
+.mob {
+    visibility: hidden;
+}
+
 #banner {
     text-align: center;
     background-color: white;

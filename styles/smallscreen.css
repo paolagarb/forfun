@@ -177,3 +177,24 @@ footer a {
 footer a img {
     width: 92%;
 }
+
+
+
+
+#formularioContato {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    font-size: 14px;
+    margin-left: 10%;
+    line-height: 160%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(201, 193, 193, 0.185);
+}
+
+.wid {
+    visibility: hidden;
+    position: absolute;
+    z-index: -1;
+}

@@ -131,9 +131,6 @@ footer a img {
     width: 92%;
 }
 
-
-
-
 #formularioContato {
     display: flex;
     flex-direction: column;
@@ -202,3 +199,46 @@ footer a img {
     width: 100%;
     max-width: 100%;
 }
+
+#eventosProx {
+  /*  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;*/
+    display: inline-block;
+    position: relative;
+}
+
+#shows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#shows td, th {
+    font-size: 16px;
+    line-height: 120%;
+}
+
+#eventosImg img { 
+    width: 100%;
+    max-width: 100%;
+    opacity: 0.3;
+    position: absolute;
+    z-index: -1;
+}
+
+.Footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#shows th { text-align: left;}
+#shows a { color: black; }
+#shows table { border-spacing: 10px; }
+#shows table td, th { padding-left: 10px;}

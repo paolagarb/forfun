@@ -237,3 +237,26 @@ footer a img {
     width: 100%;
     max-width: 100%;
 }
+
+#eventosProx, #shows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#shows td, th {
+    font-size: 14px;
+    line-height: 150%;
+}
+
+#eventosImg img { 
+    width: 100%;
+    max-width: 100%;
+}
+
+#shows th { text-align: left;}
+#shows a { color: black; }
+#shows table { border-spacing: 10px; }
+#shows table td, th { padding-left: 15px;}

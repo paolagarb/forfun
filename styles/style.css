@@ -144,3 +144,47 @@ footer a img {
     text-align: center;
     background-color: rgba(201, 193, 193, 0.185);
 }
+
+#forfunBG {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 14px;
+}
+
+#forfunBG img {
+    width: 80%;
+    max-width: 100%;
+    margin: 10px auto;
+    border-radius: 10px 0;
+}
+
+#eventos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+#eventosA, #eventosB {
+    float: left;
+    width: 40%;
+    height: 10%;
+    border-radius: 10px 0;
+}
+
+#eventosA {
+    background-color: rgba(255, 255, 255, 0.178);
+    border: 1px solid black;
+}
+
+#eventos p {
+    font-size: 90%;
+    padding-top: 1%;
+}
+
+#eventos a { color: rgb(0, 0, 0); }
+#eventosB { background-color: rgb(0, 0, 0); }
+#eventosB p { color: white; }
+#eventosB p { padding-left: 40%; }
+#eventosA p { padding-left: 5%; }
+

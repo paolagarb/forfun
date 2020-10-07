@@ -198,3 +198,27 @@ footer a img {
     position: absolute;
     z-index: -1;
 }
+
+#forfunBG {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#forfunBG img {
+    width: 90%;
+    max-width: 100%;
+    margin: 10px auto;
+    border-radius: 10px 0;
+}
+
+#eventos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6%;
+}
+
+#eventos a {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}

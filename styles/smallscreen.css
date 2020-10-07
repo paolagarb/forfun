@@ -304,51 +304,49 @@ footer a img {
     background-size: contain;
 }
 
-#footerDisco, .Footer {
+#footerDisco, .Footer, #footerQuemSomos {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
-/*
 
+#quemSomosDiv { width: 100%; }
 
-.discografia {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-}
-#CDA, #CDB, #CDC, #CDE, #CDF, #CDG { 
-    background-repeat: no-repeat;
-    width: 80%;
-    height: auto;
-    background-size: contain;
-}
+#quemSomosDiv div { height: 25%; }
+#quemSomosA img, #quemSomosB img, #quemSomosC img, #quemSomosD img { display: none; }
 
-.discografia p {
-    opacity: 0.0;
-    color: rgba(0, 0, 0, 0.664);
-}
-
-.discografia div:hover {
-    -webkit-transform: scale(1.0);
-    transform: scale(1.0);
-    cursor: pointer;
-    opacity: 1.0;
-}
-
-
-#CDA:hover { background: linear-gradient(rgba(255, 255, 255, 0.288), rgba(255, 255, 255, 0.116)), url("../img/Cd/CDDas-pistas-de-skate-as-pistas-de-danca.jpg"); }
-#CDB:hover { background: linear-gradient(rgba(255, 255, 255, 0.233), rgba(255, 255, 255, 0.384)), url("../img/Cd/CDTeoriaDinamica.jpg"); }
-#CDC:hover { background: linear-gradient(rgba(255, 255, 255, 0.308), rgba(255, 255, 255, 0.295)), url("../img/Cd/CDPolisenso.jpg"); }
-#CDE:hover { background: linear-gradient(rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.479)), url("../img/Cd/CDAlegriaCompartilhada.png"); }
-#CDF:hover { background: linear-gradient(rgba(255, 255, 255, 0.205), rgba(255, 255, 255, 0.349)), url("../img/Cd/CDAoVivoNoDiscoVoador.png"); }
-#CDG:hover { background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(255, 255, 255, 0.719)), url("../img/Cd/CDNu.jpg"); }
-
-#CDA:hover, #CDB:hover, #CDC:hover, #CDE:hover, #CDF:hover, #CDG:hover {
+#quemSomosA {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("../img/Integrantes/Danilo.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-size: 100%; 
-}*/
+    background-position: right;
+    margin: 10px;
+    font-size: 14px;
+}
+
+#quemSomosB {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("../img/Integrantes/Nicolas.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin: 10px;
+    font-size: 14px;
+}
+
+#quemSomosC {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("../img/Integrantes/Victor.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin: 10px;
+    font-size: 14px;
+}
+
+#quemSomosD {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("../img/Integrantes/Rodrigo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin: 10px;
+    font-size: 14px;
+}

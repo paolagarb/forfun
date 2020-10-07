@@ -188,3 +188,17 @@ footer a img {
 #eventosB p { padding-left: 40%; }
 #eventosA p { padding-left: 5%; }
 
+#galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+}
+
+#galeria img {
+    width: 100%;
+    max-width: 100%;
+}

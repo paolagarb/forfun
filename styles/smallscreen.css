@@ -222,3 +222,18 @@ footer a img {
     color: rgb(0, 0, 0);
     font-size: 16px;
 }
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    font-size: 12px;
+}
+
+#galeria img {
+    width: 100%;
+    max-width: 100%;
+}

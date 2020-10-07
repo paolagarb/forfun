@@ -481,6 +481,9 @@ a:hover {
 
 #galeria {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 figure{
@@ -488,7 +491,7 @@ figure{
 }
 
 .seta {
-    margin: 220px 180px 0 180px;
+    margin: 0 180px;
 }
 
 footer a:hover {

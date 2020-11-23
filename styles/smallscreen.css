@@ -9,10 +9,9 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     height: 100%;
-    width: 100%;
+    max-width: 100vh;
     max-width: 100%;
 }
-
 
 .wid {
     visibility: hidden;
@@ -20,10 +19,8 @@ body {
     z-index: -1;
 }
 
-.mob {
-    color: white;
-}
-
+.mob { color: white; }
+.mob ul { list-style: none; }
 
 header {
     background-color: rgba(0, 0, 0, 0.918);
@@ -38,10 +35,6 @@ header img {
     margin: 12px 0 10px 10px;
     width: 100px;
     float: left;
-}
-
-.mob ul {
-    list-style: none;
 }
 
 .mob ul li {
@@ -62,27 +55,17 @@ header img {
 
 .mob ul li ul {
     visibility: hidden;
-   /* position: absolute;
-    z-index: 1;*/
     position: relative;
     right: 35%;
 }
 
-.mob ul li:hover ul {
-    visibility: visible;   
-}
-
-.mob ul ul li {
-    line-height: 20px;
-}
+.mob ul li:hover ul { visibility: visible; }
+.mob ul ul li { line-height: 20px; }
+.mob ul ul a:hover { opacity: 0.8;}
 
 .mob ul li ul hr {
     border: 2px solid rgb(255, 255, 255);
     height: 5px;
-}
-
-.mob ul ul a:hover {
-    opacity: 0.8;
 }
 
 #banner {
@@ -310,8 +293,14 @@ footer a img {
     width: 100%;
 }
 
-#quemSomosDiv { width: 100%; }
+.Footer a {
+    margin-right: -10px;
+}
 
+.footerMin { position: relative; }
+.footerMin a { margin-right: 10px; }
+
+#quemSomosDiv { width: 100%; }
 #quemSomosDiv div { height: 25%; }
 #quemSomosA img, #quemSomosB img, #quemSomosC img, #quemSomosD img { display: none; }
 
@@ -349,4 +338,53 @@ footer a img {
     background-position: right;
     margin: 10px;
     font-size: 14px;
+}
+
+.fotos {
+    max-width: 80%;
+    margin: 10px 0px;
+}
+
+.tamanhos, .comprar{
+    align-items: center;
+    margin-right: 10px 0px;
+    min-width: 20%;
+    border-radius: 5px;
+}
+
+.tamanhos {
+    background-color: rgba(0, 0, 0, 0.822);
+    color: rgba(255, 255, 255, 0.884);
+}
+
+.comprar {
+    color: rgba(0, 0, 0, 0.822);
+    background-color: rgba(255, 255, 255, 0.678);
+    margin-left: 10px;
+}
+
+.itens ul, .itens ul li a {
+    list-style-type: none;
+    color: black;
+    font-size: 18px;
+}
+
+.produtosMin { width: 100%; }
+.itens ul hr  { display: none; }
+.todosProdutos div div p:first-child {text-align: center; } 
+.div1 { margin: 0 auto; }
+
+.todosProdutos div div p{ 
+    font-size: 16px; 
+    margin-left: 10px;
+}
+
+.itens ul li, .itensMin ul li {
+    float: left;
+    width: 33%;
+    margin-bottom: 30px;
+}
+
+#caneca p:first-child {
+    text-align: center;
 }

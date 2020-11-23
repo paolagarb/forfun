@@ -2,13 +2,14 @@
 
 ### Desenvolvimento de Software para Internet :computer:
 
-Trabalho para ser entregue a cada 15 dias.
 
 Tema: Livre
 
-- Primeira entrega: site estático. (07/10/2020) :white_check_mark:
+- Criar duas páginas estáticas. :white_check_mark:
 
-- Segunda entrega: responsividade. (21/10/2020) 
+- Navegação entre páginas :white_check_mark:
+
+- Entrega (07/10/2020) :white_check_mark:
 
 <!-- ![site](https://github.com/paolagarb/SiteForfun/blob/master/SiteForfun.gif) -->
 

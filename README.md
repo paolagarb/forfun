@@ -1,7 +1,18 @@
-# SiteForfun
+# <div align="center"> SiteForfun </div>
 
-### Desenvolvimento de Software para Internet :computer:
+### <div align="center"> :computer: Desenvolvimento de Software para Internet </div>
 
+
+### Tencologias
+
+- HTML5
+
+- CSS3
+
+- JavaScript
+
+
+### Entregas
 
 Tema: Livre
 
@@ -11,6 +22,12 @@ Tema: Livre
 
 - Entrega (07/10/2020) :white_check_mark:
 
-<!-- ![site](https://github.com/paolagarb/SiteForfun/blob/master/SiteForfun.gif) -->
 
-<img src="https://github.com/paolagarb/SiteForfun/blob/master/SiteForfun.gif" width="800" >
+### Projeto
+
+Criação de um site estático somente com HTML5, CSS3 e JavaScript para aplicação de conhecimentos e avaliação.
+
+:camera:
+
+<img src="https://github.com/paolagarb/SiteForfun/blob/master/SiteForfun.gif" width="800px;" > </div>
+

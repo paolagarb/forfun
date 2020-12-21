@@ -12,9 +12,14 @@
 - JavaScript
 
 
+### Projeto
+
+Criação de um site estático somente com HTML5, CSS3 e JavaScript para aplicação de conhecimentos e avaliação.
+
+
 ### Entregas
 
-Tema: Livre
+:heavy_exclamation_mark: Tema: Livre
 
 - Criar duas páginas estáticas. :white_check_mark:
 
@@ -23,11 +28,8 @@ Tema: Livre
 - Entrega (07/10/2020) :white_check_mark:
 
 
-### Projeto
 
-Criação de um site estático somente com HTML5, CSS3 e JavaScript para aplicação de conhecimentos e avaliação.
+:camera: 
 
-:camera:
-
-<img src="https://github.com/paolagarb/SiteForfun/blob/master/SiteForfun.gif" width="800px;" > </div>
+<img align="center" src="https://github.com/paolagarb/SiteForfun/blob/master/SiteForfun.gif" width="800px;" > 
 

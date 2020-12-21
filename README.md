@@ -1,4 +1,4 @@
-# <div align="center"> SiteForfun </div>
+# <div align="center"> Forfun </div>
 
 ### <div align="center"> :computer: Desenvolvimento de Software para Internet </div>
 

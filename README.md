@@ -33,5 +33,6 @@ Criação de um site estático somente com HTML5, CSS3 e JavaScript para aplica�
 
 <img align="center" src="https://github.com/paolagarb/SiteForfun/blob/master/SiteForfun.gif" width="800px;" > 
 
+<hr>
 
-:heavy_exclamation_mark: Projeto desenvolvido para Universidade
+:heavy_exclamation_mark: Projeto desenvolvido para avaliação na Universidade
